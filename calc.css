@@ -1,0 +1,20 @@
+table,th,td{
+    border-collapse:collapse;
+    width:1000px;
+    height:100px;
+    
+
+}
+tr:nth-child(even){
+    background-color:pink;
+}
+tr:nth-child(odd){
+    background-color:blue;
+}
+input[type='button']
+{
+    background-color: white;
+    color:green;
+    border:solid black 2px;
+    width:100px;
+}
